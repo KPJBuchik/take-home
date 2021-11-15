@@ -1,0 +1,101 @@
+.joinButton {
+    margin-left: 45%;
+    background-color: purple;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+}
+
+.joinButton:hover {
+    cursor: pointer;
+    opacity: .6;
+}
+
+.aboutMe {
+    padding-bottom: 20%;
+}
+
+.forms {
+    display: grid;
+}
+
+.inputs {
+    margin-bottom: 20px;
+}
+
+.modalFooter {
+    border-style:none;
+    background: #9d50bb;
+    background: -webkit-linear-gradient(to right, #9d50bb, #6e48aa);
+    background: linear-gradient(to right, #9d50bb, #6e48aa);
+}
+
+
+.modalBody {
+    background: #9d50bb;
+    background: -webkit-linear-gradient(to right, #9d50bb, #6e48aa);
+    background: linear-gradient(to right, #9d50bb, #6e48aa);
+}
+
+.submitButton {
+    background: #9d50bb;
+    background: -webkit-linear-gradient(to right, #9d50bb, #6e48aa);
+    background: linear-gradient(to right, #9d50bb, #6e48aa);
+
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: purple;
+    color: white;
+    font-weight: bolder;
+    border-style: solid;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.closeButton {
+    background: #9d50bb;
+    background: -webkit-linear-gradient(to right, #9d50bb, #6e48aa);
+    background: linear-gradient(to right, #9d50bb, #6e48aa);
+    border-radius: 10px;
+    border-color: purple;
+    color: white;
+    font-weight: bolder;
+    border-style: solid;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.submitButton:hover {
+    background: #9d50bb;
+    background: -webkit-linear-gradient(to right, #9d50bb, #6e48aa);
+    background: linear-gradient(to right, #9d50bb, #6e48aa);
+
+    opacity:0.7;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: purple;
+    color: white;
+    font-weight: bolder;
+    border-style: solid;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.closeButton:hover {
+    background: #9d50bb;
+    background: -webkit-linear-gradient(to right, #9d50bb, #6e48aa);
+    background: linear-gradient(to right, #9d50bb, #6e48aa);
+
+    opacity:0.7;
+
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: purple;
+    color: white;
+    font-weight: bolder;
+    border-style: solid;
+    text-decoration: none;
+    display: inline-block;
+}

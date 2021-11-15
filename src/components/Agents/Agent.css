@@ -1,0 +1,216 @@
+.container {
+  margin: 2rem;
+  border-radius: 8px;
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  width: 360px;
+  margin-bottom: 10px;
+  background: #9d50bb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #9d50bb, #6e48aa); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #9d50bb, #6e48aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.avatar-holder {
+  position: relative;
+  z-index: 0;
+  top:-32px;
+  margin-top: -64px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.avatar {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  vertical-align: middle;
+  width: 360px;
+  margin-left:-11px;
+  height: 220px;
+  display: inline-block;
+  margin-top:-8px;
+}
+
+.title {
+  color: #343799;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  line-height: 20px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.agent-name {
+  color: #1c1c21;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 56px;
+  margin-top:-40px;
+
+}
+
+.body {
+  flex-grow: 1;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 32px;
+}
+
+.body2 {
+  flex-grow: 1;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 32px;
+  display: none;
+}
+
+footer {
+  background: transparent;
+  border-radius: 0 0 8px 8px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 122px;
+  justify-content: center;
+}
+
+footer .stat {
+  font-family: museo-slab, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 56px;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.bordered {
+  border-width: 0 1px 0 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.full-width-flex-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+    margin-top:-40px;
+
+}
+
+.accordionButton {
+  position: relative;
+  z-index: 1;
+  margin-top: 10px;
+  background-color: transparent;
+  border-style: solid;
+  border-color:purple;
+  color: purple;
+  font-weight:bolder;
+  float: right;
+  margin-right: 2px;
+}
+.accordionButton:hover {opacity:0.6;
+}
+.reviewButton {
+  background-color: transparent;
+  border-radius:10px;
+  border-color:purple;
+  color: purple;
+  font-weight:bolder;
+  border-style:solid;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.reviewButton:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+.reviewInput {
+  padding-bottom: 20%;
+  width: 100%;
+}
+.modalFooter {
+  border-style:none;
+  background: #9d50bb;
+  background: -webkit-linear-gradient(to right, #9d50bb, #6e48aa);
+  background: linear-gradient(to right, #9d50bb, #6e48aa);
+}
+
+
+.modalBody {
+  background: #9d50bb;
+  background: -webkit-linear-gradient(to right, #9d50bb, #6e48aa);
+  background: linear-gradient(to right, #9d50bb, #6e48aa);
+}
+
+.submitButton {
+  background: #9d50bb;
+  background: -webkit-linear-gradient(to right, #9d50bb, #6e48aa);
+  background: linear-gradient(to right, #9d50bb, #6e48aa);
+
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: purple;
+  color: white;
+  font-weight: bolder;
+  border-style: solid;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.closeButton {
+  background: #9d50bb;
+  background: -webkit-linear-gradient(to right, #9d50bb, #6e48aa);
+  background: linear-gradient(to right, #9d50bb, #6e48aa);
+  border-radius: 10px;
+  border-color: purple;
+  color: white;
+  font-weight: bolder;
+  border-style: solid;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.submitButton:hover {
+  background: #9d50bb;
+  background: -webkit-linear-gradient(to right, #9d50bb, #6e48aa);
+  background: linear-gradient(to right, #9d50bb, #6e48aa);
+
+  opacity:0.7;
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: purple;
+  color: white;
+  font-weight: bolder;
+  border-style: solid;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.closeButton:hover {
+  background: #9d50bb;
+  background: -webkit-linear-gradient(to right, #9d50bb, #6e48aa);
+  background: linear-gradient(to right, #9d50bb, #6e48aa);
+
+  opacity:0.7;
+
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: purple;
+  color: white;
+  font-weight: bolder;
+  border-style: solid;
+  text-decoration: none;
+  display: inline-block;
+}
+@media screen and (min-width: 640px) {
+  .container {
+    display: inline-flex;
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+}
